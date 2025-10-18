@@ -10,5 +10,5 @@
     "TFMG-thermal >= 0.1.1",
     "!space-age"
   ],
-  "description": "This mod adds overheating to furnaces and beacons. its a pretty simple mod, mostly to demonstrate the capabilites of the TFMG thermal system."
+  "description": "This mod adds overheating to furnaces and beacons. its a pretty simple mod, mostly to demonstrate the capabilites of TFMG thermal."
 }
