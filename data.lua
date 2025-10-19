@@ -5,11 +5,11 @@ beacon.thermal_system = {
   max_safe_temperature = 185,--beacons are fragile
 
   --Y shape connections can come once the lib supports rotations for beacons
-  --connections = { --Y shape, this will make rows possible, but require slightly more consideration.
-  --  { position = {-1, -1}, direction = defines.direction.north },
-  --  { position = {1, -1}, direction = defines.direction.north },
-  --  { position = {0, 1}, direction = defines.direction.south },
-  --}
+  connections = { --Y shape, this will make rows possible, but require slightly more consideration.
+    { position = {-1, -1}, direction = defines.direction.north },
+    { position = {1, -1}, direction = defines.direction.north },
+    { position = {0, 1}, direction = defines.direction.south },
+  }
 }
 --beacons cant be rotated, and man i dont wanna deal with that right now, but its practically mandatory for this library.
 
