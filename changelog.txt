@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.1
-Date: ????
+Version: 1.0.0
+Date: 2025-10-20
+  Changes:
+    - Beacons now have a Y shape heat pipe layout, and can be rotated.
   Bugfixes:
     - Sub dependency removed, as its already implied by TFMG-thermal
 ---------------------------------------------------------------------------------------------------
