@@ -3,8 +3,7 @@ beacon.thermal_system = {
   heat_ratio = 1,--being machines that don't actually do any work, they output all their heat back out.
   max_working_temperature = 180,
   max_safe_temperature = 185,--beacons are fragile
-
-  --Y shape connections can come once the lib supports rotations for beacons
+  
   connections = { --Y shape, this will make rows possible, but require slightly more consideration.
     { position = {-1, -1}, direction = defines.direction.north },
     { position = {1, -1}, direction = defines.direction.north },
