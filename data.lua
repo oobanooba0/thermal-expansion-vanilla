@@ -1,5 +1,5 @@
 local beacon = data.raw["beacon"]["beacon"]
-beacon.thermal_system = {
+beacon.TFMG_thermal = {
   heat_ratio = 1,--being machines that don't actually do any work, they output all their heat back out.
   max_working_temperature = 180,
   max_safe_temperature = 185,--beacons are fragile
@@ -13,7 +13,7 @@ beacon.thermal_system = {
 --beacons cant be rotated, and man i dont wanna deal with that right now, but its practically mandatory for this library.
 
 local electric_furnace = data.raw["furnace"]["electric-furnace"]
-electric_furnace.thermal_system = {
+electric_furnace.TFMG_thermal = {
   heat_ratio = 0.8, --electric furnaces are inneficient
   max_working_temperature = 700,
   max_safe_temperature = 900,--electric furnaces are very resilliant. but are a risk towards their neighbours
